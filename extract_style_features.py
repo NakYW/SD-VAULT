@@ -73,7 +73,7 @@ def load_model_from_config(config, ckpt, verbose=False):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--sty", default="./data/sty", help="Path to style images directory")
+    parser.add_argument("--sty", default="", help="Path to style images directory")
     parser.add_argument("--ddim_inv_steps", type=int, default=50, help="DDIM inversion steps")
     parser.add_argument("--save_feat_steps", type=int, default=50, help="Save feature steps")
     parser.add_argument("--start_step", type=int, default=49, help="Start step")
