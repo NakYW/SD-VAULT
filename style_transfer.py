@@ -390,8 +390,8 @@ def compute_clip_image_features(clip_model, image_tensor: torch.Tensor) -> torch
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--cnt", default="./data/cnt")
-    parser.add_argument("--sty", default="./data/sty")
+    parser.add_argument("--cnt", default="")
+    parser.add_argument("--sty", default="")
     parser.add_argument("--ddim_inv_steps", type=int, default=50, help="DDIM eta")
     parser.add_argument("--save_feat_steps", type=int, default=50, help="DDIM eta")
     parser.add_argument("--start_step", type=int, default=49, help="DDIM eta")
