@@ -13,7 +13,7 @@ conda activate STYLEVAULT
 
 ### Download Stable Diffusion Weights
 
-Download Stable Diffusion 1.5 weights and place them under:[SD1.5](https://www.wikiart.org/)  <br>  
+Download Stable Diffusion 1.5 weights and place them under:[SD1.5](https://1drv.ms/u/c/713cbdae7ec17093/IQBaBf8qxzrfRapMCmzPybzuAfwvMItQzu-DMU1OLlRyQCY?e=aE34Cd)  <br>  
 
 ```
 models/ldm/stable-diffusion-1.5/
@@ -61,6 +61,7 @@ python eval_artfid.py --sty ../data/sty_eval --cnt ../data/cnt_eval --tar ../out
 cd evaluation;
 python eval_histogan.py --sty ../data/sty_eval --tar ../output
 ```
+
 
 
 
