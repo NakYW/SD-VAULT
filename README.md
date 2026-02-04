@@ -3,7 +3,9 @@
 ### Environment
 
 conda create -n stylevault python=3.10 -y
+
 conda activate stylevault
+
 pip install -r requirements.txt
 
 
@@ -51,6 +53,7 @@ python eval_artfid.py --sty ../data/sty_eval --cnt ../data/cnt_eval --tar ../out
 
 cd evaluation
 python eval_histogan.py --sty ../data/sty_eval --tar ../output
+
 
 
 
